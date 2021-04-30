@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+  
+}
+#search {
+  text-align: center;
+}
+#search input{
+  padding-left: 15px;
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+#search input:hover{
+  border: 3px solid #3176f5;
+}
+#post {
+  background-image: linear-gradient(to right top, #4b59ed, #425ae7, #395ae1, #305adb, #275ad4, #095dc8, #005fba, #005fac, #005d8f, #00566d, #234b50, #383f3e);
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+}
+img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+ol {
+  margin-bottom: 10px;
+}
+#deletePost {
+  position: absolute;
+  margin-left: 250px;
+}
+
+#deleteContent {
+  position: absolute;
+  margin-left: 15px;
+}
